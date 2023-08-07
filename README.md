@@ -3,5 +3,6 @@
 ---
 **Q:** What is this?
 ```
-AmethystJs is an additional layer to the Minecraft Bedrock scripting api
+AmethystJs is an additional layer
+to theMinecraft Bedrock scripting api
 ```
