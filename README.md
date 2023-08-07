@@ -1,4 +1,4 @@
 # AmethystJs
 ### Minecraft Bedrock scripting api wrapper 
 ---
-- What is this?
+## **Q:** What is this?
