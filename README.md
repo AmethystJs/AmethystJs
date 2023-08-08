@@ -1,4 +1,4 @@
-![AmethystJs](https://imgur.com/a/HAyW3B5)
+![AmethystJs](assets/banner.png)
 
 # AmethystJs
 ### Minecraft Bedrock scripting api wrapper 
