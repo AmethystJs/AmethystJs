@@ -14,3 +14,4 @@ vanilla Scripting API, in fact the idea of
 AmethystJs is that you can migrate an
 advanced project over time
 ```
+---
