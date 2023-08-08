@@ -2,7 +2,7 @@
 ### Minecraft Bedrock scripting api wrapper 
 ---
 
-### Introduction
+> Introduction
 **Q:** What is this?
 ```
 AmethystJs is an additional layer
