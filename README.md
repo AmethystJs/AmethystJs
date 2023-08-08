@@ -20,3 +20,17 @@ AmethystJs is that you can migrate an
 advanced project over time
 ```
 ---
+
+### How to start 
+
+> **1.** Syntax
+```js
+import { require } from 'BPM/.js'
+
+(async () => {
+    // Modules
+    const { World } = await require('@Core');
+    // Code
+    World.print('hello world :p');
+})();
+```
