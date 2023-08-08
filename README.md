@@ -4,5 +4,7 @@
 **Q:** What is this?
 ```
 AmethystJs is an additional layer
-to theMinecraft Bedrock scripting api
+to the Minecraft Bedrock scripting api
 ```
+
+**Q:** Is it compatible with vanilla scripting api?
