@@ -84,3 +84,20 @@ import { require } from 'BPM/.js'
     } = Dimension;
 })();
 ```
+> **5.** ChunkData
+###### `ChunkData` function from @core native module
+```js
+import { require } from 'BPM/.js'
+
+(async () => {
+    const { ChunkData } = await require('@core'); 
+
+    const {
+        minX, // 0
+        minZ, // 0
+        maxX, // 15
+        maxZ, // 15
+        slime // false
+    } = ChunkData({ x: 0, z: 0 });
+})();
+```
