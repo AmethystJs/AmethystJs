@@ -33,6 +33,7 @@ import { require } from 'BPM/.js'
 
 (async () => {
     // Modules
+    //  it's a async function  ↓
     const { World } = await require('@Core');
     // Code
     World.print('hello world :p');
