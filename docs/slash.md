@@ -15,6 +15,8 @@ import { require } from 'BPM/.js'
             World.print('hi');
         }
     });
+    
+    // When you put "./test" in the chat it will print "hi"
 
 })();
 ```
