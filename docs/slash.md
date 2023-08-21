@@ -1,4 +1,4 @@
-#### @slash allows you to easily create commands with the `./{name}` prefix
+#### `@slash` allows you to easily create commands with the `./{name}` prefix
 
 ---
 
