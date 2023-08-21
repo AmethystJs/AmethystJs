@@ -41,3 +41,8 @@ import { module } from 'BPM/.js'
 let x = module.exports['globalValue1'];
 console.warn(x);
 ```
+> this allows data to be globally accessible to any file without having to import from a path.
+
+---
+#### server (really instance)
+> It is a gametest instance (Gametest.Register) in a global way to perform any action exclusive to the instances in the global scope, an example of this is the `Player` class of the `@core` module which uses instance tab to create the simulated players.
