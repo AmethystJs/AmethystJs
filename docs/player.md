@@ -26,7 +26,7 @@ script
 ```
 > **Create player**
 ```js
-import { require } from 'BPM/.js
+import { require } from 'BPM/.js'
 (async () => {
     const Player await require('@core::Player');
     const sleep = await require('@extras::sleep');
@@ -37,7 +37,7 @@ import { require } from 'BPM/.js
 ```
 > **Script**
 ```js
-import { require } from 'BPM/.js
+import { require } from 'BPM/.js'
 (async () => {
     const Player await require('@core::Player');
     const sleep = await require('@extras::sleep');
