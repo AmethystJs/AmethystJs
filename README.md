@@ -65,7 +65,7 @@ import { require } from 'BPM/.js'
     const { World } = await require('@core'); 
 
     World.print('hello world :p');
-    World.ephemeral('Shh',<player>);
+    World.ephemeral('Shh',player);
     World.command('run::say hi');
     World.command('async::say hi');
 })();
