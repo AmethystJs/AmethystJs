@@ -2,4 +2,5 @@
 > BPM or “Bedrock Package Manager” consists of a system of "modules" for Minecraft Bedrock, these modules start with the `@` character in the `scripts/BPM/` folder
 
 #### **1.** require
-##### `require` is the essential part of BPM, since this function allows to import and store the modules in a local cache 
+
+`require` is the essential part of BPM, since this function allows to import and store the modules in a local cache 
