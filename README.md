@@ -25,6 +25,8 @@ advanced project over time
 ### Requirements 
 > The requirements will depend on the version of AmethystJs, so check the version requirements in the [releases](https://github.com/AmethystJs/AmethystJs/releases) tab of the version you will use. 
 
+> You must download the .zip and unzip it in the mother path of your addon (for example) `development_behavior_packs/addonTest/`
+
 ### How to start 
 
 > **1.** Syntax
