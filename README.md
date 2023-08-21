@@ -39,7 +39,7 @@ import { require } from 'BPM/.js'
 })();
 ```
 
-> **2.**
+> **2.** Event 
 ##### `Event` object from @core native module
 ```js
 import { require } from 'BPM/.js'
@@ -50,9 +50,24 @@ import { require } from 'BPM/.js'
     // Event follow
     Event.follow('before/chatSend',ev => {});
     Event.follow('after/itemUse',ev => {});
-    // Event shortcurt (place, break, spawn and kill)
+    // Event shortcurt (place, break, spawn and die)
     Event.follow('spawn::shulker', ev => {});
     // Multiple parameters
     Event.follow('spawn::shulker&iron_golem&...', ev => {});
 })();
+```
+> **3.** World
+##### `World` object from @core native module
+```js
+import { require } from 'BPM/.js'
+
+(async () => {
+    const { World } = await require('@core'); 
+
+    World.print('hello world :p');
+    World.ephemeral('Shh',<player>);
+    World.command('run::say hi');
+    World.command('async::say hi');
+})();
+
 ```
