@@ -4,6 +4,7 @@
 
 ```js
 import { require } from 'BPM/.js'
+
 (async () => {
     const { Event, NBT }  = await require('@core');
     
