@@ -1,4 +1,4 @@
-### the `Player` class allows you to create a simulated player
+#### the `Player` class allows you to create a simulated player
 
 ---
 
