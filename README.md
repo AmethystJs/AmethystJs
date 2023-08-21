@@ -48,8 +48,8 @@ import { require } from 'BPM/.js'
     const { Event } = await require('@core');
 
     // Event follow
-    Event.follow('before/chatSend',ev => {});
-    Event.follow('after/itemUse',ev => {});
+    Event.follow('before/chatSend', ev => {});
+    Event.follow('after/itemUse', ev => {});
     // Event shortcurt (place, break, spawn and die)
     Event.follow('spawn::shulker', ev => {});
     // Multiple parameters
@@ -65,9 +65,18 @@ import { require } from 'BPM/.js'
     const { World } = await require('@core'); 
 
     World.print('hello world :p');
-    World.ephemeral('Shh',player);
+    World.ephemeral('Shh', playerObject);
     World.command('run::say hi');
     World.command('async::say hi');
 })();
 
+```
+> **4.** Dimension
+##### `Dimension` object from @core native module
+```js
+(async () => {
+    const { Dimension } = await require('@core'); 
+
+    const { overworld, nether, the_end } = Dimension;
+})();
 ```
