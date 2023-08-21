@@ -52,5 +52,10 @@ import { require } from 'BPM/.js
        -----------------------------------------
     */
     user.script('[]jump&attack * 10 -> wait::40 -> disconnect');
+    /*
+       Repeat jump and attack (both at the
+       same time by group controller) for 10
+       times, wait 40gts (2s) and disconnect
+    */
 })();
 ```
