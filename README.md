@@ -107,5 +107,5 @@ import { require } from 'BPM/.js'
 ##### [`Player`](docs/player.md) class from @core module
 ##### [`NBT`](docs/nbt.md) object from @core module
 ##### [`@slash`](docs/slash.md) module
-##### [`@extras`](docs/slash.md) module
-##### [`@colors`](docs/slash.md) module
+##### [`@extras`](docs/extras.md) module
+##### [`@colors`](docs/colors.md) module
