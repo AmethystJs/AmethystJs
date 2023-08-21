@@ -101,5 +101,8 @@ import { require } from 'BPM/.js'
     } = ChunkData({ x: 0, z: 0 });
 })();
 ```
+---
+### Others
+
 > **6.** Player
 ##### [`Player`](docs/player.md) class from @core native module 
