@@ -22,6 +22,8 @@ AmethystJs is that you can migrate an
 advanced project over time
 ```
 ---
+### Requirements 
+> The requirements will depend on the version of AmethystJs, so check the version requirements in the [releases](https://github.com/AmethystJs/AmethystJs/releases) tab of the version you will use. 
 
 ### How to start 
 
