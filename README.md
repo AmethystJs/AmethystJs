@@ -114,4 +114,4 @@ import { require } from 'BPM/.js'
 ##### [`@extras`](docs/extras.md) module
 ##### [`@colors`](docs/colors.md) module
 ##### [`BPM`](docs/bpm.md) require, module & server
-##### [`how to create a module`](docs/create.md)
+##### [`module creation`](docs/create.md) guide
