@@ -7,5 +7,15 @@
 
 #### • uses
 ```js
-console.log('a'); 
+import { require } from 'BPM/.js'
+
+(async () => {
+    /* Normal import */
+    // module name                     ↓
+    const { World } = await require('@core');
+    /* Methods import */
+    // module name                 ↓
+    const Player  await require('@core::Player');
+    // specify method/property/function   ↑
+})();
 ```
