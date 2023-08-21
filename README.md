@@ -26,6 +26,7 @@ advanced project over time
 ### How to start 
 
 > **1.** Syntax
+##### AmethystJs runs in an async function that runs itself
 ```js
 import { require } from 'BPM/.js'
 
