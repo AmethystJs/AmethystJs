@@ -32,7 +32,7 @@ import { require } from 'BPM/.js
     const sleep = await require('@extras::sleep');
     // Player
     await sleep(500) // ms
-    let user = new Player({ x: 0, y: 60, z: 0 });
+    let user = new Player('bot',{ x: 0, y: 60, z: 0 });
 })();
 ```
 > **Script**
@@ -43,7 +43,7 @@ import { require } from 'BPM/.js
     const sleep = await require('@extras::sleep');
     // Player
     await sleep(500) // ms
-    let user = new Player({ x: 0, y: 60, z: 0 });
+    let user = new Player('coolBot',{ x: 0, y: 60, z: 0 });
     /*
        -------------- Interpreter --------------
        [] <- group controller
