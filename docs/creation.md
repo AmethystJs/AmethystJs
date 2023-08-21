@@ -7,7 +7,7 @@
 > Create a folder like this `@{name(lowercase)}` in the following path: `scripts/BPM/`
 
 #### 2.-
-> Inside your module folder create the following file: `pkg.j` and put the following
+> Inside your module folder create the following file: `pkg.js` and put the following
 ```js
 const module = {
     main: 'src/main.js', // inside your module folder
