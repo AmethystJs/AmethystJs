@@ -13,7 +13,7 @@ import { require } from 'BPM/.js'
     });
     NBT.Create({
         name: 'booleanProp',
-        type: 'number'
+        type: 'boolean'
     });
     NBT.Create({
         name: 'stringProp',
