@@ -10,11 +10,12 @@
 import { require } from 'BPM/.js'
 
 (async () => {
-    /* Normal import */
+    /* Destructuring import */
     // module name                     ↓
     const { World } = await require('@core');
+    /* Word import */
+    const core = await require('@core');
     /* Methods import */
-    // module name                 ↓
     const Player = await require('@core::Player');
     // specify method/property/function    ↑
 })();
