@@ -40,7 +40,7 @@ import { require } from 'BPM/.js'
 ```
 
 > **2.** Event 
-##### `Event` object from @core native module
+##### `Event` object from @core module
 ```js
 import { require } from 'BPM/.js'
 
@@ -57,7 +57,7 @@ import { require } from 'BPM/.js'
 })();
 ```
 > **3.** World
-##### `World` object from @core native module
+##### `World` object from @core module
 ```js
 import { require } from 'BPM/.js'
 
@@ -72,7 +72,7 @@ import { require } from 'BPM/.js'
 
 ```
 > **4.** Dimension
-##### `Dimension` object from @core native module
+##### `Dimension` object from @core module
 ```js
 import { require } from 'BPM/.js'
 
@@ -85,7 +85,7 @@ import { require } from 'BPM/.js'
 })();
 ```
 > **5.** ChunkData
-##### `ChunkData` function from @core native module
+##### `ChunkData` function from @core module
 ```js
 import { require } from 'BPM/.js'
 
@@ -104,5 +104,6 @@ import { require } from 'BPM/.js'
 ---
 ### Others
 
-> **6.** Player
-##### [`Player`](docs/player.md) class from @core native module 
+##### [`Player`](docs/player.md) class from @core module
+##### [`NBT`](docs/nbt.md) object from @core module
+##### [`@slash`](docs/slash.md) module
