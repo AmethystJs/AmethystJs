@@ -77,6 +77,10 @@ import { require } from 'BPM/.js'
 (async () => {
     const { Dimension } = await require('@core'); 
 
-    const { overworld, nether, the_end } = Dimension;
+    const {
+        overworld,
+        nether,
+        the_end
+    } = Dimension;
 })();
 ```
