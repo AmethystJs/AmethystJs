@@ -102,4 +102,4 @@ import { require } from 'BPM/.js'
 })();
 ```
 > **6.** Player
-[`Player`](docs/player.md) class from @core native module 
+##### [`Player`](docs/player.md) class from @core native module 
