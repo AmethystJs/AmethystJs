@@ -51,6 +51,7 @@ import { require } from 'BPM/.js
        func::arg <- functions (for example, use)
        -----------------------------------------
     */
+    // you can add "true" as the second parameter to print the script in the chat :s
     user.script('[]jump&attack * 10 -> wait::40 -> disconnect');
     /*
        Repeat jump and attack (both at the
