@@ -4,8 +4,7 @@
 #### Require
 
 > `require` is the essential part of BPM, since this function allows to import and store the modules in a local cache 
-- uses
->
+> - uses
 ```js
 console.log('a');
 ```
