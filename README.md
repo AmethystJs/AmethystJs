@@ -109,3 +109,4 @@ import { require } from 'BPM/.js'
 ##### [`@slash`](docs/slash.md) module
 ##### [`@extras`](docs/extras.md) module
 ##### [`@colors`](docs/colors.md) module
+##### [`BPM`](docs/bpm.md) require & module
