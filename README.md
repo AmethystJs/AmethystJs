@@ -38,3 +38,21 @@ import { require } from 'BPM/.js'
     World.print('hello world :p');
 })();
 ```
+
+> **2.**
+##### `Event` object from @core native module
+```js
+import { require } from 'BPM/.js'
+
+(async () => {
+    const { Event } = await require('@core');
+
+    // Event follow
+    Event.follow('before/chatSend',ev => {});
+    Event.follow('after/itemUse',ev => {});
+    // Event shortcurt (place, break, spawn and kill)
+    Event.follow('spawn::shulker', ev => {});
+    // Multiple parameters
+    Event.folmow('spawn::shulker&iron_golem&...', ev => {});
+})();
+```
