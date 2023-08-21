@@ -51,6 +51,6 @@ import { require } from 'BPM/.js
        func::arg <- functions (for example, use)
        -----------------------------------------
     */
-    user.script(
+    user.script('[]jump&attack * 10 -> wait::40 -> disconnect');
 })();
 ```
