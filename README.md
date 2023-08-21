@@ -53,6 +53,6 @@ import { require } from 'BPM/.js'
     // Event shortcurt (place, break, spawn and kill)
     Event.follow('spawn::shulker', ev => {});
     // Multiple parameters
-    Event.folmow('spawn::shulker&iron_golem&...', ev => {});
+    Event.follow('spawn::shulker&iron_golem&...', ev => {});
 })();
 ```
