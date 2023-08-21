@@ -15,7 +15,7 @@ import { require } from 'BPM/.js'
     const { World } = await require('@core');
     /* Methods import */
     // module name                 ↓
-    const Player  await require('@core::Player');
-    // specify method/property/function   ↑
+    const Player = await require('@core::Player');
+    // specify method/property/function    ↑
 })();
 ```
