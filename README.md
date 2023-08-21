@@ -11,7 +11,7 @@
 AmethystJs is an additional layer
 to the Minecraft Bedrock scripting api
 said additional layer has a modules system
-in addition to containing 3 native modules
+in addition to containing 4 native modules
 ```
 
 > **Q:** Is it compatible with vanilla scripting api?
