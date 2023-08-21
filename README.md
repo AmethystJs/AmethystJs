@@ -74,6 +74,8 @@ import { require } from 'BPM/.js'
 > **4.** Dimension
 ##### `Dimension` object from @core native module
 ```js
+import { require } from 'BPM/.js'
+
 (async () => {
     const { Dimension } = await require('@core'); 
 
