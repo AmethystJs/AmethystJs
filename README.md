@@ -85,7 +85,7 @@ import { require } from 'BPM/.js'
 })();
 ```
 > **5.** ChunkData
-###### `ChunkData` function from @core native module
+##### `ChunkData` function from @core native module
 ```js
 import { require } from 'BPM/.js'
 
