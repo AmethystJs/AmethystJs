@@ -14,3 +14,6 @@ const module = {
     version: '1.0-stable' // It has not yet been used at the moment
 }; export { module }
 ```
+
+#### 3.-
+> And that's it! you can now start exporting functions within your file specified in `main` property.
