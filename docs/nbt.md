@@ -7,6 +7,7 @@ import { require } from 'BPM/.js'
 (async () => {
     const { Event, NBT }  = await require('@core');
     
+    // Define props
     NBT.Create({
         name: 'numberProp',
         type: 'number'
@@ -22,5 +23,13 @@ import { require } from 'BPM/.js'
     });
 
 
+    // Load props
+    Event.follow('after/worldInitialize', ev => {
+        NBT.Reader(ev);
+    });
+
+    // Get and Set 
+    NBT.setData('booleanProp', true);
+    console.warn(NBT.getData('booleanProp'));
 })();
 ```
