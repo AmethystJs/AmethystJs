@@ -1,11 +1,13 @@
 #### What is `BPM`?
 > BPM or “Bedrock Package Manager” consists of a system of "modules" for Minecraft Bedrock, these modules start with the `@` character in the `scripts/BPM/` folder
 
+---
+
 #### Require
 
 > `require` is the essential part of BPM, since this function allows to import and store the modules in a local cache 
 
-#### • uses
+#### • use
 ```js
 import { require } from 'BPM/.js'
 
@@ -19,4 +21,23 @@ import { require } from 'BPM/.js'
     const Player = await require('@core::Player');
     // specify method/property/function    ↑
 })();
+```
+
+---
+
+#### module & module.exports
+> `module` and its `exports` property also play a role, although not as important, but useful in certain aspects, it allows to have global data from a single object (as a data store)
+
+#### • use
+> It's not necessarily just async functions
+```js
+// "main.js"
+import { module } from 'BPM/.js'
+module({ globalValue1: 'hellou :p' });
+
+// Imagine this is another file (test.js)
+import { module } from 'BPM/.js'
+
+let x = module.exports['globalValue1'];
+console.warn(x);
 ```
