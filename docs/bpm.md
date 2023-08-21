@@ -22,6 +22,8 @@ import { require } from 'BPM/.js'
     // specify method/property/function    ↑
 })();
 ```
+#### • local cache
+> Something to note about `require` is that once you import a module or route, it saves all exported methods, properties, etc in the file in a local cache, so it is faster to access those functions exported from the i module a second time.
 
 ---
 
