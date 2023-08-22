@@ -116,4 +116,4 @@ import { require } from 'BPM/.js'
 ##### [`BPM`](docs/bpm.md) require, module & server
 ##### [`module creation`](docs/creation.md) guide
 ---
-# [My Discord server](https://discord.gg/96Uyt3KWT5L)
+# [My Discord server](https://discord.gg/96Uyt3KWT5)
